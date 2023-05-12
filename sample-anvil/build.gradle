@@ -20,15 +20,6 @@ android {
         }
     }
 
-    signingConfigs {
-        debug {
-            storeFile file("debug.keystore")
-            storePassword "testing"
-            keyAlias "helloDagger"
-            keyPassword "testing"
-        }
-    }
-
     buildFeatures {
         viewBinding true
     }
